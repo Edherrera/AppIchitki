@@ -31,8 +31,9 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="341dp"
-        android:layout_height="246dp"
+        android:layout_width="357dp"
+        android:layout_height="241dp"
+        android:layout_marginStart="8dp"
         app:layout_constraintBottom_toTopOf="@+id/btnSecondActivity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,7 +60,7 @@
         android:id="@+id/textView3"
         android:layout_width="226dp"
         android:layout_height="31dp"
-        android:layout_marginStart="15dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:text="Historia de Uribia, La Guajira"
         app:layout_constraintStart_toStartOf="parent"
