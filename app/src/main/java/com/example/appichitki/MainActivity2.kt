@@ -22,6 +22,6 @@ class MainActivity2 : AppCompatActivity() {
         val secondIntent = Intent(this,MainActivity3::class.java)
         secondIntent.putExtra("MISDATOS", "El valor que quiero pasar a la otra actividad")
         startActivity(secondIntent)
-        Toast.makeText(this, "Bienvenido a Hoteles de Uribia!!!", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "Hoteles de Uribia!!!", Toast.LENGTH_LONG).show()
     }
 }
