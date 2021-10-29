@@ -12,7 +12,7 @@
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
-        android:text="Hoteles de Uribia"
+        android:text="Escoja un Hotel"
         android:textAlignment="center"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/textView5"
@@ -32,7 +32,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imagurib"
         android:layout_width="346dp"
         android:layout_height="171dp"
         android:layout_marginStart="8dp"
@@ -49,7 +49,7 @@
         android:textAlignment="gravity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imagurib" />
 
     <ImageView
         android:id="@+id/imageView4"
