@@ -17,6 +17,7 @@ class MainJuyasirain : AppCompatActivity() {
     }
 
 
+
     fun goToOtherApp() {
         val implicitIntent = Intent(Intent.ACTION_SENDTO, Uri.parse("smsto:+573002353263"))
         //implicitIntent.putExtra("sms_body","Mi mensaje")

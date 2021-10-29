@@ -10,7 +10,7 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hoteles de Uribia"
+        android:text="Hotel Ichitki"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,72 +21,48 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Hotel Uribia"
-        android:textSize="18dp"
+        android:text="Clic en esta imagen"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.047"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="385dp"
-        android:layout_height="186dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8"
-        app:srcCompat="@drawable/descarga" />
-
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="327dp"
-        android:layout_height="37dp"
-        android:layout_marginTop="4dp"
-        android:text="Calle 14#08-30 (280,95 km) Uribia, Colombia  Celular  315 5668273"
+        android:layout_width="392dp"
+        android:layout_height="110dp"
+        android:text="excelente ambiente que les resulta muy cálido y familiar. Conociendo también, aspectos de la fascinante cultura wayuu - DirecciónCalle 14#08-30 (280,95 km) Uribia, Colombia  Celular  315 5668273"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+        app:layout_constraintTop_toBottomOf="@+id/imageIchitki" />
 
-    <TextView
-        android:id="@+id/textView11"
+    <ImageView
+        android:id="@+id/imageIchitki"
+        android:layout_width="411dp"
+        android:layout_height="239dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:srcCompat="@drawable/_0171109_144245"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/btnActividadIchi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hotel Gran Colombia"
-        android:textSize="18sp"
+        android:text="Ver mas Hoteles"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.036"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="328dp"
-        android:layout_height="189dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11"
-        app:srcCompat="@drawable/_018_03_21" />
-
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="348dp"
-        android:layout_height="38dp"
-        android:layout_marginTop="4dp"
-        android:text="Carrera.5 No. 13 B 27 Barrio la florida, Uribia, La Guajira Celular 314 5594505"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.642"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="397dp"
-        android:layout_height="116dp"
+        android:layout_width="412dp"
+        android:layout_height="246dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView13"
-        app:srcCompat="@drawable/banneruribia" />
+        app:layout_constraintTop_toBottomOf="@+id/btnActividadIchi"
+        app:srcCompat="@drawable/ichitki3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
