@@ -13,7 +13,7 @@ class MainActivity2 : AppCompatActivity() {
         setContentView(R.layout.activity_main2)
 
         val btnSecond = findViewById<Button>(R.id.btnActividadTres)
-        val imaguri = findViewById<ImageView>(R.id.imagurib)
+        val imaguri = findViewById<ImageView>(R.id.imagjuya)
 
         btnSecond.setOnClickListener { goToSecondActivity() }
         imaguri.setOnClickListener { iraUribia() }
