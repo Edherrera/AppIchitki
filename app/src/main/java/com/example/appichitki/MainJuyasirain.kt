@@ -19,7 +19,7 @@ class MainJuyasirain : AppCompatActivity() {
 
 
     fun goToOtherApp() {
-        val implicitIntent = Intent(Intent.ACTION_SENDTO, Uri.parse("smsto:+573002353263"))
+        val implicitIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://www.tripadvisor.co/Hotel_Review-g2440191-d2701993-Reviews-Hotel_Juyasirain-Uribia_La_Guajira_Department"))
         //implicitIntent.putExtra("sms_body","Mi mensaje")
         startActivity(implicitIntent)
     }
