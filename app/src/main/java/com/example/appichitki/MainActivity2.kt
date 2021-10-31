@@ -14,10 +14,12 @@ class MainActivity2 : AppCompatActivity() {
 
 
         val btnSecond = findViewById<Button>(R.id.btnActividadTres)
+        val btnSecond2 = findViewById<Button>(R.id.btnActividadgaleria)
         val imagejuya = findViewById<ImageView>(R.id.imagjuya)
 
 
         btnSecond.setOnClickListener { goToSecondActivity() }
+        btnSecond2.setOnClickListener { goToSecondActivity2() }
         imagejuya.setOnClickListener { irjuya() }
 
 
@@ -37,6 +39,11 @@ class MainActivity2 : AppCompatActivity() {
         Toast.makeText(this, "Hoteles de Uribia!!!", Toast.LENGTH_LONG).show()
     }
 
-
+    fun goToSecondActivity2() {
+        val secondIntent = Intent(this,MainUribia::class.java)
+        secondIntent.putExtra("MISDATOS", "El valor que quiero pasar a la otra actividad")
+        startActivity(secondIntent)
+        Toast.makeText(this, "Hoteles de Uribia!!!", Toast.LENGTH_LONG).show()
+    }
 
 }
